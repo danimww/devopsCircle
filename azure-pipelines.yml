@@ -47,3 +47,5 @@ steps:
     appType: 'webApp'
     WebAppName: 'DevOpsCircle'
     packageForLinux: '$(System.DefaultWorkingDirectory)/**/*.zip'
+
+- task: PublishBuildArtifacts@1
